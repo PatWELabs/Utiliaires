@@ -1,0 +1,19 @@
+REGEDIT
+; Ce fichier .REG peut être utilisé par votre programme d'installation.
+;   Si aucun programme d'installation n'est disponible, les entrées suivantes sont
+;   automatiquement inscrites dans votre InitInstance via un appel à
+;   CWinApp::RegisterShellFileTypes et à COleObjectFactory::UpdateRegistryAll.
+
+HKEY_CLASSES_ROOT\.outlook = WebOutlook.Document
+HKEY_CLASSES_ROOT\WebOutlook.Document\shell\open\command = WebOutlook.EXE %1
+HKEY_CLASSES_ROOT\WebOutlook.Document\shell\open\ddeexec = [open("%1")]
+HKEY_CLASSES_ROOT\WebOutlook.Document\shell\open\ddeexec\application = WebOutlook
+    ; remarque : l'application est optionnelle
+    ;  (par défaut, prend le nom d'application spécifié dans "command")
+HKEY_CLASSES_ROOT\WebOutlook.Document = WebOutlook.Document
+HKEY_CLASSES_ROOT\WebOutlook.Document\CLSID = {C64AFCE2-9771-4F7D-B0C6-E34511113FE8}
+
+HKEY_CLASSES_ROOT\CLSID\{C64AFCE2-9771-4F7D-B0C6-E34511113FE8} = WebOutlook.Document
+HKEY_CLASSES_ROOT\CLSID\{C64AFCE2-9771-4F7D-B0C6-E34511113FE8}\ProgId = WebOutlook.Document
+
+HKEY_CLASSES_ROOT\CLSID\{C64AFCE2-9771-4F7D-B0C6-E34511113FE8}\LocalServer32 = WebOutlook.EXE

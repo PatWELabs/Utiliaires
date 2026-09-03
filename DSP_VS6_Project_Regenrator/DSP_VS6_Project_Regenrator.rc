@@ -1,0 +1,261 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_DSP_VS6_PROJECT_REGENRATOR MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       IDM_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About ...",                  IDM_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_DSP_VS6_PROJECT_REGENRATOR ACCELERATORS 
+BEGIN
+    "?",            IDM_ABOUT,              ASCII,  ALT
+    "/",            IDM_ABOUT,              ASCII,  ALT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  22, 17, 230, 75
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "System"
+BEGIN
+    ICON            107,IDC_MYICON,14,9,16,16
+    LTEXT           "DSP_VS6_Project_Regenrator Version 1.0",IDC_STATIC,49,
+                    10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2019",IDC_STATIC,49,20,119,8
+    DEFPUSHBUTTON   "OK",IDOK,195,6,30,11,WS_GROUP
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "Générateur de Projets Visual Studio 6 DSP"
+    IDC_DSP_VS6_PROJECT_REGENRATOR "DSP_VS6_PROJECT_REGENRATOR"
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRC)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH_CANADIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_DSP_VS6_PROJECT_REGENRATOR ICON                    "Divano.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    MENUITEM "C++Old Style Developpement",  0, INACTIVE
+    MENUITEM "© Patrice Waechter-Ebling 2009 - 2019", 0, INACTIVE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOGMAIN DIALOGEX 0, 0, 411, 285
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | DS_CENTER | 
+    WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Assistant création Project Visual Studio 6"
+MENU IDR_MENU1
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&Générer",IDOK,266,254,50,14
+    PUSHBUTTON      "A&bandonner",IDCANCEL,354,254,50,14
+    LTEXT           "Nom du projet á générer",IDC_STATIC,7,7,80,8
+    EDITTEXT        IDC_EDIT1,7,18,241,12,ES_AUTOHSCROLL
+    LTEXT           "",IDC_PATH,88,7,316,8,WS_DISABLED
+    PUSHBUTTON      "&Parcourir",IDC_BUTTON1,251,16,50,14
+    GROUPBOX        "Static",IDC_STATIC,7,35,397,213
+    PUSHBUTTON      "&Ajouter",IDC_BUTTON2,320,33,34,14
+    LISTBOX         IDC_LIST1,14,47,383,197,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_TRANSPARENT
+    ICON            IDI_DSP_VS6_PROJECT_REGENRATOR,IDC_STATIC,7,248,21,20
+    PUSHBUTTON      "&Aide",IDM_ABOUT,317,254,35,14
+    PUSHBUTTON      "&Supprimer",IDC_BUTTON3,354,33,43,14,WS_DISABLED
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOGMAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 404
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 268
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1 24 
+BEGIN
+    0x3f3c, 0x6d78, 0x206c, 0x6576, 0x7372, 0x6f69, 0x3d6e, 0x3122, 0x302e, 
+    0x2022, 0x6e65, 0x6f63, 0x6964, 0x676e, 0x223d, 0x5455, 0x2d46, 0x2238, 
+    0x7320, 0x6174, 0x646e, 0x6c61, 0x6e6f, 0x3d65, 0x7922, 0x7365, 0x3f22, 
+    0x0d3e, 0x3c0a, 0x7361, 0x6573, 0x626d, 0x796c, 0x7820, 0x6c6d, 0x736e, 
+    0x223d, 0x7275, 0x3a6e, 0x6373, 0x6568, 0x616d, 0x2d73, 0x696d, 0x7263, 
+    0x736f, 0x666f, 0x2d74, 0x6f63, 0x3a6d, 0x7361, 0x2e6d, 0x3176, 0x2022, 
+    0x616d, 0x696e, 0x6566, 0x7473, 0x6556, 0x7372, 0x6f69, 0x3d6e, 0x3122, 
+    0x302e, 0x3e22, 0x0a0d, 0x613c, 0x7373, 0x6d65, 0x6c62, 0x4979, 0x6564, 
+    0x746e, 0x7469, 0x0d79, 0x6e0a, 0x6d61, 0x3d65, 0x5122, 0x6975, 0x6b63, 
+    0x4e20, 0x726f, 0x6f74, 0x206e, 0x6e41, 0x6974, 0x5620, 0x7269, 0x7375, 
+    0x5520, 0x6470, 0x7461, 0x2065, 0x6f70, 0x7275, 0x5720, 0x6e69, 0x6f64, 
+    0x7377, 0x544e, 0x2235, 0x0a0d, 0x7270, 0x636f, 0x7365, 0x6f73, 0x4172, 
+    0x6372, 0x6968, 0x6574, 0x7463, 0x7275, 0x3d65, 0x7822, 0x3638, 0x0d22, 
+    0x760a, 0x7265, 0x6973, 0x6e6f, 0x223d, 0x2e31, 0x2e30, 0x2e30, 0x2230, 
+    0x0a0d, 0x7974, 0x6570, 0x223d, 0x6977, 0x336e, 0x2232, 0x3e2f, 0x0a0d, 
+    0x643c, 0x7365, 0x7263, 0x7069, 0x6974, 0x6e6f, 0x513e, 0x334e, 0x5f32, 
+    0x544e, 0x3c35, 0x642f, 0x7365, 0x7263, 0x7069, 0x6974, 0x6e6f, 0x0d3e, 
+    0x3c0a, 0x6564, 0x6570, 0x646e, 0x6e65, 0x7963, 0x0d3e, 0x3c0a, 0x6564, 
+    0x6570, 0x646e, 0x6e65, 0x4174, 0x7373, 0x6d65, 0x6c62, 0x3e79, 0x0a0d, 
+    0x613c, 0x7373, 0x6d65, 0x6c62, 0x4979, 0x6564, 0x746e, 0x7469, 0x0d79, 
+    0x740a, 0x7079, 0x3d65, 0x7722, 0x6e69, 0x3233, 0x0d22, 0x6e0a, 0x6d61, 
+    0x3d65, 0x4d22, 0x6369, 0x6f72, 0x6f73, 0x7466, 0x572e, 0x6e69, 0x6f64, 
+    0x7377, 0x432e, 0x6d6f, 0x6f6d, 0x2d6e, 0x6f43, 0x746e, 0x6f72, 0x736c, 
+    0x0d22, 0x760a, 0x7265, 0x6973, 0x6e6f, 0x223d, 0x2e36, 0x2e30, 0x2e30, 
+    0x2230, 0x0a0d, 0x7270, 0x636f, 0x7365, 0x6f73, 0x4172, 0x6372, 0x6968, 
+    0x6574, 0x7463, 0x7275, 0x3d65, 0x7822, 0x3638, 0x0d22, 0x700a, 0x6275, 
+    0x696c, 0x4b63, 0x7965, 0x6f54, 0x656b, 0x3d6e, 0x3622, 0x3935, 0x6235, 
+    0x3436, 0x3431, 0x6334, 0x6663, 0x6431, 0x2266, 0x0a0d, 0x616c, 0x676e, 
+    0x6175, 0x6567, 0x223d, 0x222a, 0x0a0d, 0x3e2f, 0x0a0d, 0x2f3c, 0x6564, 
+    0x6570, 0x646e, 0x6e65, 0x4174, 0x7373, 0x6d65, 0x6c62, 0x3e79, 0x0a0d, 
+    0x2f3c, 0x6564, 0x6570, 0x646e, 0x6e65, 0x7963, 0x0d3e, 0x3c0a, 0x612f, 
+    0x7373, 0x6d65, 0x6c62, 0x3e79
+END
+
+#endif    // French (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

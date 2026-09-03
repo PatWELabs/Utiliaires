@@ -1,0 +1,29 @@
+// WebOutlook.idl : source de la bibliothèque de types pour WebOutlook.exe
+
+// Ce fichier va être traité par le compilateur MIDL pour générer la
+// bibliothèque de types (WebOutlook.tlb).
+
+[ uuid(86656295-188B-4E23-9643-B66FFFFF500A), version(1.0) ]
+library WebOutlook
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  Interface de répartition principale pour CWebOutlookDoc
+	
+	[ uuid(386E986D-3157-4AAF-9B08-B249087403DB) ]
+	dispinterface IWebOutlook
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  Informations sur la classe CWebOutlookDoc
+	
+	[ uuid(C64AFCE2-9771-4F7D-B0C6-E34511113FE8) ]
+	coclass CWebOutlookDoc
+	{
+		[default] dispinterface IWebOutlook;
+	};
+};

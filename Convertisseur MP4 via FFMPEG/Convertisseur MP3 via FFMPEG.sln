@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Convertisseur MP3 via FFMPEG", "Convertisseur MP3 via FFMPEG.vcproj", "{81B3C35D-8ED7-4FF6-BB45-36894D346E3D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{81B3C35D-8ED7-4FF6-BB45-36894D346E3D}.Debug.ActiveCfg = Debug|Win32
+		{81B3C35D-8ED7-4FF6-BB45-36894D346E3D}.Debug.Build.0 = Debug|Win32
+		{81B3C35D-8ED7-4FF6-BB45-36894D346E3D}.Release.ActiveCfg = Release|Win32
+		{81B3C35D-8ED7-4FF6-BB45-36894D346E3D}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

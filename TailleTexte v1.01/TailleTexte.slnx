@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="TailleTexte.vcxproj" Id="6f94a715-af6d-4fed-a782-2299d92c4d3c" />
+</Solution>

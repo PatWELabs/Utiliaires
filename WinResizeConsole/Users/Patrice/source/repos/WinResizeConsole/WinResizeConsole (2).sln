@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinResizeConsole", "WinResizeConsole.vcproj", "{31030A9C-08FE-41BC-BA39-2D9CD7637BD8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{31030A9C-08FE-41BC-BA39-2D9CD7637BD8}.Debug.ActiveCfg = Debug|Win32
+		{31030A9C-08FE-41BC-BA39-2D9CD7637BD8}.Debug.Build.0 = Debug|Win32
+		{31030A9C-08FE-41BC-BA39-2D9CD7637BD8}.Release.ActiveCfg = Release|Win32
+		{31030A9C-08FE-41BC-BA39-2D9CD7637BD8}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

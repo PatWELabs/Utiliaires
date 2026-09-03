@@ -1,0 +1,10 @@
+[Fiables]
+Affichage du service=Windows Update
+Statuts=00000000
+CurrentState=00000001
+CheckPoint=00000000
+ControlsAccepted=00000000
+ServiceSpecificExitCode=00000032
+ServiceType=00000202
+WaitHint=00000000
+Win32ExitCode=00000000

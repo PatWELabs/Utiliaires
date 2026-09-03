@@ -1,0 +1,10 @@
+[Fiables]
+Affichage du service=Service Broker pour les événements horaires
+Statuts=00000000
+CurrentState=00000004
+CheckPoint=00000000
+ControlsAccepted=00000577
+ServiceSpecificExitCode=00000032
+ServiceType=00000152
+WaitHint=00000000
+Win32ExitCode=00000000

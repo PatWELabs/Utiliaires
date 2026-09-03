@@ -1,0 +1,11 @@
+[Fiables]
+Affichage du service=Spouleur d’impression
+Statuts=00000000
+CurrentState=00000004
+CheckPoint=00000000
+ControlsAccepted=00001217
+ServiceSpecificExitCode=00000272
+ServiceType=00000132
+WaitHint=00000000
+Win32ExitCode=00000000
+Executable=

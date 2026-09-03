@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="CalculateurBinaireAvance.vcxproj" Id="292a6c8d-2e58-42e8-9b99-0cb0d7c2340a" />
+</Solution>

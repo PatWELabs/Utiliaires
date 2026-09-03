@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServicesScanner", "ServicesScanner.vcproj", "{55A51103-4803-4845-B4F8-0F2D4E86885B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServiceSecureScanner", "ServiceSecureScanner\ServiceSecureScanner.vcproj", "{1CAE245D-7315-4247-B392-F5ABECC2D93D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RegDataExtract", "..\RegDataExtract\RegDataExtract.vcproj", "{F0115578-584C-476C-8749-1BE42E0431EB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Services2HTML", "..\Services2HTML\Services2HTML.vcproj", "{C41BA9F2-963A-41AE-BC51-88C9A3E96D03}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{55A51103-4803-4845-B4F8-0F2D4E86885B}.Debug.ActiveCfg = Debug|Win32
+		{55A51103-4803-4845-B4F8-0F2D4E86885B}.Debug.Build.0 = Debug|Win32
+		{55A51103-4803-4845-B4F8-0F2D4E86885B}.Release.ActiveCfg = Release|Win32
+		{55A51103-4803-4845-B4F8-0F2D4E86885B}.Release.Build.0 = Release|Win32
+		{1CAE245D-7315-4247-B392-F5ABECC2D93D}.Debug.ActiveCfg = Debug|Win32
+		{1CAE245D-7315-4247-B392-F5ABECC2D93D}.Debug.Build.0 = Debug|Win32
+		{1CAE245D-7315-4247-B392-F5ABECC2D93D}.Release.ActiveCfg = Release|Win32
+		{1CAE245D-7315-4247-B392-F5ABECC2D93D}.Release.Build.0 = Release|Win32
+		{F0115578-584C-476C-8749-1BE42E0431EB}.Debug.ActiveCfg = Debug|Win32
+		{F0115578-584C-476C-8749-1BE42E0431EB}.Debug.Build.0 = Debug|Win32
+		{F0115578-584C-476C-8749-1BE42E0431EB}.Release.ActiveCfg = Release|Win32
+		{F0115578-584C-476C-8749-1BE42E0431EB}.Release.Build.0 = Release|Win32
+		{C41BA9F2-963A-41AE-BC51-88C9A3E96D03}.Debug.ActiveCfg = Debug|Win32
+		{C41BA9F2-963A-41AE-BC51-88C9A3E96D03}.Debug.Build.0 = Debug|Win32
+		{C41BA9F2-963A-41AE-BC51-88C9A3E96D03}.Release.ActiveCfg = Release|Win32
+		{C41BA9F2-963A-41AE-BC51-88C9A3E96D03}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

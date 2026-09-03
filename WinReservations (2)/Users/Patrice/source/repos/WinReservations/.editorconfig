@@ -1,0 +1,7 @@
+﻿[*.{cs,vb}]
+
+# IDE0040: Ajouter des modificateurs d'accessibilité
+dotnet_diagnostic.IDE0040.severity = none
+
+# IDE0055: Corriger la mise en forme
+dotnet_diagnostic.IDE0055.severity = silent

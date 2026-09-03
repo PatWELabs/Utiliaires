@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ConverisseurBinDec.vcxproj" Id="c521b435-682e-40fc-a2cb-b9b07d031949" />
+</Solution>

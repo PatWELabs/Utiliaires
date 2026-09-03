@@ -1,0 +1,229 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_TIME2DECA_DIALOG DIALOGEX 0, 0, 172, 126
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Conmvertit une dure en decimaux"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Calculer",IDOK,63,103,50,16
+    PUSHBUTTON      "Annuler",IDCANCEL,115,103,50,16
+    LTEXT           "Heures",IDC_STATIC,21,19,24,8
+    EDITTEXT        IDC_EDIT1,54,17,40,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NOHIDESEL | ES_NUMBER
+    LTEXT           "Minutes",IDC_STATIC,21,31,26,8
+    EDITTEXT        IDC_EDIT2,54,29,40,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NOHIDESEL | ES_NUMBER
+    LTEXT           "Secondes",IDC_STATIC,21,43,32,8
+    EDITTEXT        IDC_EDIT3,54,42,40,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NOHIDESEL | ES_NUMBER
+    LTEXT           "Resultat",IDC_STATIC,33,65,28,8
+    EDITTEXT        IDC_EDIT4,61,63,93,12,ES_AUTOHSCROLL | ES_NOHIDESEL
+    EDITTEXT        IDC_EDIT5,95,17,40,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NOHIDESEL | ES_NUMBER
+    EDITTEXT        IDC_EDIT6,95,29,40,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NOHIDESEL | ES_NUMBER
+    EDITTEXT        IDC_EDIT7,95,42,40,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_NOHIDESEL | ES_NUMBER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040c04e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Nom de la société>"
+            VALUE "FileDescription", "TODO: <Description du fichier>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Time2Deca.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Nom de la société>. Tous droits réservés."
+            VALUE "OriginalFilename", "Time2Deca.exe"
+            VALUE "ProductName", "TODO: <Nom du produit>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_TIME2DECA_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 165
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 119
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRC)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH_CANADIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)\r\n"
+    "LANGUAGE 12, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\Time2Deca.rc2""  // ressources non modifiées par Microsoft Visual C++\r\n"
+    "#include ""afxres.rc""         // Composants standard\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Time2Deca.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1 24 
+BEGIN
+    0xbbef, 0x3cbf, 0x783f, 0x6c6d, 0x7620, 0x7265, 0x6973, 0x6e6f, 0x223d, 
+    0x2e31, 0x2230, 0x6520, 0x636e, 0x646f, 0x6e69, 0x3d67, 0x5522, 0x4654, 
+    0x382d, 0x2022, 0x7473, 0x6e61, 0x6164, 0x6f6c, 0x656e, 0x223d, 0x6579, 
+    0x2273, 0x3e3f, 0x0a0d, 0x613c, 0x7373, 0x6d65, 0x6c62, 0x2079, 0x6d78, 
+    0x6e6c, 0x3d73, 0x7522, 0x6e72, 0x733a, 0x6863, 0x6d65, 0x7361, 0x6d2d, 
+    0x6369, 0x6f72, 0x6f73, 0x7466, 0x632d, 0x6d6f, 0x613a, 0x6d73, 0x762e, 
+    0x2231, 0x6d20, 0x6e61, 0x6669, 0x7365, 0x5674, 0x7265, 0x6973, 0x6e6f, 
+    0x223d, 0x2e31, 0x2230, 0x0d3e, 0x200a, 0x3c20, 0x7274, 0x7375, 0x4974, 
+    0x666e, 0x206f, 0x6d78, 0x6e6c, 0x3d73, 0x7522, 0x6e72, 0x733a, 0x6863, 
+    0x6d65, 0x7361, 0x6d2d, 0x6369, 0x6f72, 0x6f73, 0x7466, 0x632d, 0x6d6f, 
+    0x613a, 0x6d73, 0x762e, 0x2233, 0x0d3e, 0x200a, 0x2020, 0x3c20, 0x6573, 
+    0x7563, 0x6972, 0x7974, 0x0d3e, 0x200a, 0x2020, 0x2020, 0x3c20, 0x6572, 
+    0x7571, 0x7365, 0x6574, 0x5064, 0x6972, 0x6976, 0x656c, 0x6567, 0x3e73, 
+    0x0a0d, 0x2020, 0x2020, 0x2020, 0x2020, 0x723c, 0x7165, 0x6575, 0x7473, 
+    0x6465, 0x7845, 0x6365, 0x7475, 0x6f69, 0x4c6e, 0x7665, 0x6c65, 0x6c20, 
+    0x7665, 0x6c65, 0x223d, 0x7361, 0x6e49, 0x6f76, 0x656b, 0x2272, 0x7520, 
+    0x4169, 0x6363, 0x7365, 0x3d73, 0x6622, 0x6c61, 0x6573, 0x3e22, 0x2f3c, 
+    0x6572, 0x7571, 0x7365, 0x6574, 0x4564, 0x6578, 0x7563, 0x6974, 0x6e6f, 
+    0x654c, 0x6576, 0x3e6c, 0x0a0d, 0x2020, 0x2020, 0x2020, 0x2f3c, 0x6572, 
+    0x7571, 0x7365, 0x6574, 0x5064, 0x6972, 0x6976, 0x656c, 0x6567, 0x3e73, 
+    0x0a0d, 0x2020, 0x2020, 0x2f3c, 0x6573, 0x7563, 0x6972, 0x7974, 0x0d3e, 
+    0x200a, 0x3c20, 0x742f, 0x7572, 0x7473, 0x6e49, 0x6f66, 0x0d3e, 0x3c0a, 
+    0x612f, 0x7373, 0x6d65, 0x6c62, 0x3e79
+END
+
+#endif    // French (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+LANGUAGE 12, 1
+#pragma code_page(1252)
+#include "res\Time2Deca.rc2"  // ressources non modifiées par Microsoft Visual C++
+#include "afxres.rc"         // Composants standard
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

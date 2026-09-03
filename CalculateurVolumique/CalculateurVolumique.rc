@@ -1,0 +1,287 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "res\\patrice.ico"
+IDI_ICON2               ICON                    "res\\icon2.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "À propos de CalculateurVolumique"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "CalculateurVolumique, version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2023",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_CALCULATEURVOLUMIQUE_DIALOG DIALOGEX 0, 0, 425, 319
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_NOFAILCREATE | DS_CENTER | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_OVERLAPPEDWINDOW | WS_EX_APPWINDOW
+CAPTION "Calculateur Volumique"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Calculer",IDOK,277,286,50,14
+    PUSHBUTTON      "Fermer",IDCANCEL,332,286,50,14
+    LTEXT           "Diamètre extérieur",IDC_STATIC,187,58,61,8
+    EDITTEXT        IDC_EDIT1,249,56,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Profondeur du tuyau",IDC_STATIC,188,71,68,8
+    EDITTEXT        IDC_EDIT2,248,82,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT3,248,98,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Raz Supérieur",IDC_STATIC,198,84,46,8
+    LTEXT           "Raz Inférieur",IDC_STATIC,198,99,43,8
+    LTEXT           "Longueur",IDC_STATIC,294,58,31,8
+    EDITTEXT        IDC_EDIT4,331,56,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Épaisseur assise",IDC_STATIC,13,222,53,8
+    EDITTEXT        IDC_EDIT5,70,220,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Épaisseur couche2",IDC_STATIC,183,171,60,8
+    EDITTEXT        IDC_EDIT6,247,169,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Épaisseur couche3",IDC_STATIC,183,188,60,8
+    EDITTEXT        IDC_EDIT7,247,186,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Épaisseur couche4",IDC_STATIC,183,205,60,8
+    EDITTEXT        IDC_EDIT8,247,203,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT9,68,205,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Dégagement",IDC_STATIC,14,207,42,8
+    CTEXT           "Toutes les meusures doivent etre indiquées en milimetre",IDC_STATIC,0,0,424,31,SS_CENTERIMAGE | WS_BORDER,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    LTEXT           "Volume",IDC_STATIC,280,116,24,8
+    EDITTEXT        IDC_EDIT10,307,112,67,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_DLGMODALFRAME | WS_EX_STATICEDGE
+    LTEXT           "m³",IDC_STATIC,379,116,10,8
+    LTEXT           "Volume",IDC_STATIC,296,227,24,8
+    EDITTEXT        IDC_EDIT11,322,224,67,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_DLGMODALFRAME | WS_EX_STATICEDGE
+    LTEXT           "m³",IDC_STATIC,394,227,10,8
+    LTEXT           "Volume",IDC_STATIC,297,173,24,8
+    EDITTEXT        IDC_EDIT12,323,168,67,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_DLGMODALFRAME | WS_EX_STATICEDGE
+    LTEXT           "m³",IDC_STATIC,395,173,10,8
+    LTEXT           "Volume",IDC_STATIC,297,189,24,8
+    EDITTEXT        IDC_EDIT13,323,184,67,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_DLGMODALFRAME | WS_EX_STATICEDGE
+    LTEXT           "m³",IDC_STATIC,395,189,10,8
+    LTEXT           "Volume",IDC_STATIC,297,205,24,8
+    EDITTEXT        IDC_EDIT14,323,200,67,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_DLGMODALFRAME | WS_EX_STATICEDGE
+    LTEXT           "m³",IDC_STATIC,395,205,10,8
+    LTEXT           "Pente 1",IDC_STATIC,15,239,26,8
+    COMBOBOX        IDC_COMBO1,45,236,34,12,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Section ponseau",IDC_STATIC,179,38,238,92
+    GROUPBOX        "Décaissement",IDC_STATIC,7,194,165,65
+    ICON            IDI_ICON2,IDC_STATIC,5,4,20,20,0,WS_EX_TRANSPARENT
+    GROUPBOX        "Remblayage",IDC_STATIC,179,134,238,124
+    CONTROL         130,IDC_STATIC,"Static",SS_BITMAP | SS_RIGHTJUST | SS_REALSIZEIMAGE | SS_SUNKEN,7,33,33,31,WS_EX_TRANSPARENT
+    LTEXT           "Épaisseur couche1",IDC_STATIC,183,154,60,8
+    EDITTEXT        IDC_EDIT15,247,152,40,12,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    LTEXT           "Volume",IDC_STATIC,297,156,24,8
+    EDITTEXT        IDC_EDIT16,323,151,67,14,ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER,WS_EX_DLGMODALFRAME | WS_EX_STATICEDGE
+    LTEXT           "m³",IDC_STATIC,395,156,10,8
+    LTEXT           "Pente 2",IDC_STATIC,89,240,26,8
+    COMBOBOX        IDC_COMBO2,121,237,35,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040c04e4"
+        BEGIN
+            VALUE "CompanyName", "TODO : <Nom de la société>"
+            VALUE "FileDescription", "TODO : <Description de fichier>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "CalculateurVolumique.exe"
+            VALUE "LegalCopyright", "TODO : (c) <Nom de la société>. Tous droits réservés."
+            VALUE "OriginalFilename", "CalculateurVolumique.exe"
+            VALUE "ProductName", "TODO : <Nom du produit>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x40c, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_CALCULATEURVOLUMIQUE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&À propos de CalculateurVolumique..."
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (Canada) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRC)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH_CANADIAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)\r\n"
+    "LANGUAGE 12, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\CalculateurVolumique.rc2""  // ressources non modifiées par Microsoft Visual C++\r\n"
+    "#include ""l.FRA\\afxres.rc""      // Composants standard\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\CalculateurVolumique.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 24
+//
+
+1                       24                      "C:\\Windows\\WindowsShell.Manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "res\\bitmap1.bmp"
+#endif    // French (Canada) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+LANGUAGE 12, 1
+#pragma code_page(1252)
+#include "res\CalculateurVolumique.rc2"  // ressources non modifiées par Microsoft Visual C++
+#include "l.FRA\afxres.rc"      // Composants standard
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="ConvertisseurDecHex.vcxproj" Id="f096feed-64df-47ce-aaad-7bc47f5d2e02" />
+</Solution>
